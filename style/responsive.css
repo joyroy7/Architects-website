@@ -4,3 +4,60 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+/* header style */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+nav li a{
+    text-decoration: none;
+    color:  #424242;
+}
+/* baner style */
+
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+    
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-discription{
+    color: var(--dark-03, #727272);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.btom{
+    border-radius: 10px;
+    background-color: #FF900E;
+    padding: 20px 25px;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+}
