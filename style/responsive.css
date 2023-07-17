@@ -99,6 +99,48 @@ main{
     font-weight: 700;
 }
 
+/* features */
+.feature{
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+}
+
+.feature-box{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 4px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.feature .title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.feture-img img{
+    height: 90%;
+    margin-left: 90px;
+}
+.ten-year{
+    border-radius: 8px;
+    background: #FF900E;
+    color: white;
+    width: 342px;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+
+}
+.ten-year h3{
+    font-size: 4rem;
+    margin: 0px;
+}
+.ten-year p{
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
 
 /* fact */
 .fact-card{
@@ -124,14 +166,6 @@ main{
     font-size: 1.25rem;
     font-weight: 600;
 }
-
-/* features */
-.feature{
-    display: flex;
-    margin-top: 130px;
-    gap: 100px;
-}
-
 
 /* Sponspors */
 .sponser{
